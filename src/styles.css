@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("assets/adminAssets/css/bootstrap.min.css");
+@import url("assets/adminAssets/css/icons.min");
+@import url("assets/adminAssets/css/app.min.css");
+@import url("assets/adminAssets/libs/chartist/chartist.min.css");
+@import url("assets/adminAssets/plugins/fontawesome-free/css/all.min");
+@import url("assets/adminAssets/dist/css/adminlte.min.css");
+
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  /* mat-confirm-dialog (customised dialog) */
+ /* .btn-dialog-close{
+    width: 45px;
+    min-width: 0px !important;
+    height: 40px;
+    padding: 0px !important;
+  }
+  .confirm-dialog-container .mat-dialog-container {
+    border-radius: .25em .25em .4em .4em;
+    padding: 0px;
+}
+.confirm-dialog-container .content-container{
+    margin: 5px 5px 15px 5px;
+    color: #8f9cb5;
+    display: flex;
+}
+.confirm-dialog-container #close-icon{
+    margin-left: auto;
+    order: 2;
+    font-weight: bolder;
+}
+.confirm-dialog-container #close-icon:hover{
+cursor: pointer;
+}
+.confirm-dialog-container #no-button{
+    height: 50px;
+    width: 50%;
+    background-color: #fc7169;
+    color:white;
+    border-radius: 0px;
+    }
+    
+    .confirm-dialog-container #yes-button{
+        height: 50px;
+        width: 50%;
+        background-color: #b6bece;
+        color:white;
+        border-radius: 0px;
+    }
+    
+    .confirm-dialog-container span.content-span{
+        padding:  35px 16px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+/*
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+  */

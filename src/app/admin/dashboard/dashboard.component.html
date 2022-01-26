@@ -1,0 +1,103 @@
+<!-- Start Content-->
+<div class="container-fluid">
+
+  <!-- Small Box (Stat card) -->
+  <h5 class="mb-2 mt-4"></h5>
+  <div class="row">
+    <div class="col-lg-3 col-6">
+      <!-- small card -->
+      <div class="small-box bg-info">
+        <div class="inner">
+          <h3>{{studentsCount}}</h3>
+
+          <p>Total Students</p>
+        </div>
+        <div class="icon">
+            <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="#" class="small-box-footer">
+          More info <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+      <!-- small card -->
+      <div class="small-box bg-success">
+        <div class="inner">
+          <h3>{{class11Count}}</h3>
+
+          <p>Class 11 Students</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="#" class="small-box-footer">
+          More info <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+      <!-- small card -->
+      <div class="small-box bg-warning">
+        <div class="inner">
+          <h3>{{class12Count}}</h3>
+
+          <p>Class 12 Students</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="#" class="small-box-footer">
+          More info <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-6">
+      <!-- small card -->
+      <div class="small-box bg-danger">
+        <div class="inner">
+          <h3>{{classTargetCount}}</h3>
+
+          <p>Class Target Students</p>
+        </div>
+        <div class="icon">
+          <i class="ion ion-stats-bars"></i>
+        </div>
+        <a href="#" class="small-box-footer">
+          More info <i class="fas fa-arrow-circle-right"></i>
+        </a>
+      </div>
+    </div>
+    <!-- ./col -->
+  </div>
+  <!-- /.row -->
+  <!-- end row -->
+
+  </div>
+  <!-- end row -->
+
+<div class="row">
+  <div class="col-xl-12 justify-content-center align-content-center">
+    <h2 class="text-center">List of All Students </h2>
+    <div class="card-box">
+<div class="container m-3 p-2">
+  <ag-grid-angular style="margin:10px;height:200px !important" class="ag-theme-alpine" [columnDefs]="sListHeader"
+    [rowData]="sList" [pagination]="true" [paginationPageSize]="2"
+    >
+  </ag-grid-angular>
+
+</div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+</div> <!-- container -->
+
