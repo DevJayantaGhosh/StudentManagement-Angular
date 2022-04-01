@@ -44,6 +44,7 @@ export class AuthgardGuard implements CanActivate {
       //changes from DEV2
 
       //this is home redirection
+      //Next modification From JG
 
     }
 
