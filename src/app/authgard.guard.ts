@@ -40,6 +40,7 @@ export class AuthgardGuard implements CanActivate {
 
     }else{
       this.router.navigate(['/home']);
+      //this is home redirection
     }
 
   }
