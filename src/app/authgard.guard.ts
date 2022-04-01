@@ -45,6 +45,7 @@ export class AuthgardGuard implements CanActivate {
 
       //this is home redirection
       //Next modification From JG
+      //from Fetr2
 
     }
 
